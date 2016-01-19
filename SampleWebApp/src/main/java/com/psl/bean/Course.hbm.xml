@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+              <!DOCTYPE hibernate-mapping PUBLIC
+              "-//Hibernate/Hibernate Mapping DTD//EN"
+              "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+
+	<class name="com.psl.bean.Course" table="Course">
+
+		<composite-id name="primaryKey" class="com.psl.bean.CoursePrimarykey">
+			
+			<key-property name="trainingId"></key-property>
+			<key-property name="courseId"></key-property>
+		
+		</composite-id>
+		
+		<property name="courseName"></property>
+		<property name="startDate"></property>
+		<property name="endDate"></property>
+		<property name="status"></property>
+
+	</class>
+
+</hibernate-mapping>

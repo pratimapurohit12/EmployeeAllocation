@@ -1,0 +1,104 @@
+				HTML Paper
+
+1. A webpage displays a picture. What tag was used to display that picture?
+	a. picture
+	b. image
+	c. img
+	d. src		---->d
+2. What is the correct HTML tag for inserting a line break?
+	a. <br>
+	b. <lb>
+	c. <break>
+	d. <newline>	---->a
+3. Tags and test that are not directly displayed on the page are written in _____ section.
+	a. <html>
+	b. <head>
+	c. <title>
+	d. <body>	---->c
+4. Which tag inserts a line horizontally on your web page?
+	a. <hr>
+	b. <line>
+	c. <line direction=”horizontal”>
+	d. <tr>		---->a
+5. What should be the first tag in any HTML document?
+	a. <head>	
+	b. <title>
+	c. <html>
+	d. <document>	---->c
+6. Choose the correct HTML tag for the smallest size heading?
+	a. <heading>
+	b. <h6>
+	c. <h1>
+	d. <head>	---->b
+7. What is the correct HTML tag for inserting a line break?
+	a. <br>
+	b. <lb>
+	c. <break>
+	d. <newline>	---->a
+8. What does vlink attribute mean?
+	a. visited link
+	b. virtual link
+	c. very good link
+	d. active link	---->a
+9.Which attribute is used to name an element uniquely?	
+	a. class
+	b. id
+	c. dot
+	d. all of above	---->b
+10.There are ____ different of heading tags in HTML
+	a. 4
+	b. 5
+	c. 6
+	d. 7		---->c
+11.The way the browser displays the object can be modified by _____
+	a. attributes
+	b. parameters
+	c. modifiers
+	d. None of above  ---->b
+12.HTML supports
+	a. ordered lists
+	b. unordered lists
+	c. both type of lists
+	d. does not support those types	---->c
+13.Which attribute can be used with BODY tag to set background color green?
+	a. background=”green”
+	b. bgcolor=”green”
+	c. vlink=”green”
+	d. None of above	---->a
+14.Tags and test that are not directly displayed on the page are written in _____ section.
+	a. <html>
+	b. <head>
+	c. <title>
+	d. <body>		---->c
+15.How can you make a bulleted list?
+	a. <list>
+	b. <nl>
+	c. <ul>
+	d. <ol>			---->c
+16.Choose the correct HTML tag to make a text italic
+	a. <ii>
+	b. <italics>
+	c. <italic>	
+	d. <i>			---->d
+17.Which attribute is used to name an element uniquely?
+	a. class
+	b. d
+	c. dot
+	d. all of above		---->c
+18.What is the full form of HTML?
+	a. Hyper text markup language
+	b. Hyphenation text markup language
+	c. Hyphenation test marking language
+	d. Hyper text marking language		---->a
+19. HTML document start and end with which tag pairs?
+	a. <HEAD>….</HEAD>
+	b. <BODY>….</BODY>
+	c. <HTML>….</HTML>
+	d. <WEB>….</WEB>		---->a
+20.What does the .com domain represents?
+	a. Education domain
+	b. Commercial domain
+	c. Network
+	d. None of the above		---->b
+
+

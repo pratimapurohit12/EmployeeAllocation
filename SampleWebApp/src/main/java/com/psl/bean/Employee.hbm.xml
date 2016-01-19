@@ -1,0 +1,44 @@
+<!-- <?xml version="1.0"?>
+              <!DOCTYPE hibernate-mapping PUBLIC
+              "-//Hibernate/Hibernate Mapping DTD//EN"
+              "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+
+	<class name="com.psl.bean.Employee" table="Employee">
+	
+		
+		
+ 
+		<id name="projectId">
+			<generator class="foreign">
+
+				<param name="property">project</param>
+
+			</generator>
+		</id>
+
+		<one-to-one name="project" class="com.psl.bean.Project"></one-to-one>
+
+
+	 <id name="trainingId">
+			<generator class="foreign">
+
+				<param name="property">training</param>
+
+			</generator>
+		</id>
+		
+		
+		
+		
+		
+
+		<property name="empName"></property>
+		<property name="contactNo"></property>
+		<property name="address"></property>
+		<one-to-one name="training" class="com.psl.bean.Training"></one-to-one>
+
+	</class>
+
+</hibernate-mapping> -->

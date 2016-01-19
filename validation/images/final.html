@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      min-width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:100%;
+  }
+ .thumbnail {
+      padding: 0 0 20px 0;
+      border: none;
+      border-radius: 0;
+	  max-height: 100%;
+	  max-width:100%;
+	  
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+	<li><a href="#course">Courses</a></li>
+        <li><a href="test.html">Tests</a></li>
+        <li><a href="evaluation.html">Evaluation</a></li>
+	<li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<center><h1>Welcome to Employee Evaluation Centre @ Persistent</h1></center>
+   
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="C:\Users\Administrator\Desktop\images\img13.jpg" alt="Image">      
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Administrator\Desktop\images\img10.jpg"  alt="Image">    
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a><
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div  id="course"class="container-fluid text-center bg-grey">
+  <h2>What we have in store for you!</h2>
+  <h4>Explore the world of opportunities</h4><br>
+  <div class="row text-center">
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="C:\Users\Administrator\Desktop\images\java.png" width="300" height="500">
+        <p><strong>JAVA</strong></p>
+        <p>Learn the hottest programming language! You are sure to fall in love with JAVA</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="C:\Users\Administrator\Desktop\images\c++.jpg" width="300" height="500">
+        <p><strong>C++</strong></p>
+        <p>Want to achieve mastery over OO concepts! Come and enroll for the C++ course</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="C:\Users\Administrator\Desktop\images\qe.jpg" width="300" height="500">
+        <p><strong>QE</strong></p>
+        <p>Want to deliver the products of highest standards and quality!Learn QE</p>
+      </div>
+    </div>
+ <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="C:\Users\Administrator\Desktop\images\dot.jpg" width="300" height="500">
+        <p><strong>.Net</strong></p>
+        <p>Want to achieve mastery over OO concepts! Come and enroll for the C++ course</p>
+      </div>
+    </div>
+  </div>
+</div>
+ <h2 align ="center">Just follow these simple steps!!</h2> 
+ <div class="container">
+    <div class="row smpl-step" style="border-bottom: 0; min-width: 500px;">
+        <div class="col-xs-3 smpl-step-step complete">
+            <div class="text-center smpl-step-num">Step 1</div>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <a class="smpl-step-icon"><i class="fa fa-user" style="font-size: 60px; padding-left: 12px; padding-top: 3px; color: black;"></i></a>
+            <div class="smpl-step-info text-center">Learn different technologies</div>
+        </div>
+
+        <div class="col-xs-3 smpl-step-step complete">           
+            <div class="text-center smpl-step-num">Step 2</div>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <a class="smpl-step-icon"><i class="fa fa-dollar" style="font-size: 60px; padding-left: 18px; padding-top: 5px; color: black;"></i></a>
+            <div class="smpl-step-info text-center">&nbsp &nbsp &nbsp Test Yourself</div>
+        </div>
+        <div class="col-xs-3 smpl-step-step active">          
+            <div class="text-center smpl-step-num">Step 3</div>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <a class="smpl-step-icon"><i class="fa fa-repeat" style="font-size: 60px; padding-left: 7px; padding-top: 7px; color: black;"></i></a>
+            <div class="smpl-step-info text-center">&nbsp &nbsp &nbsp Be amongst the toppers</div>
+        </div>
+        <div class="col-xs-3 smpl-step-step complete">           
+            <div class="text-center smpl-step-num">Step 4</div>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <a class="smpl-step-icon"><i class="fa fa-download" style="font-size: 60px; padding-left: 8px; padding-top: 4px; color: black; opacity: 0.3;"></i></a>
+            <div class="smpl-step-info text-center">&nbsp &nbsp &nbsp Grab interesting projects!</div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .smpl-step {
+        margin-top: 40px;
+    }
+    .smpl-step {
+        border-bottom: solid 1px #e0e0e0;
+        padding: 0 0 10px 0;
+    }
+
+    .smpl-step > .smpl-step-step {
+        padding: 0;
+        position: relative;
+    }   
+
+    .smpl-step > .smpl-step-step .smpl-step-num {
+        font-size: 17px;
+        margin-top: -20px;
+        margin-left: 47px;
+    }
+
+    .smpl-step > .smpl-step-step .smpl-step-info {
+        font-size: 14px;
+        padding-top: 27px;
+    }
+
+    .smpl-step > .smpl-step-step > .smpl-step-icon {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        display: block;
+        background: #5CB85C;
+        top: 45px;
+        left: 50%;
+        margin-top: -35px;
+        margin-left: -15px;
+        border-radius: 50%;
+    }
+
+    .smpl-step > .smpl-step-step > .progress {
+        position: relative;
+        border-radius: 0px;
+        height: 8px;
+        box-shadow: none;
+        margin-top: 37px;
+    }
+
+   .smpl-step > .smpl-step-step > .progress > .progress-bar {
+       width: 0px;
+       box-shadow: none;
+       background: #428BCA;
+   }
+
+    .smpl-step > .smpl-step-step.complete > .progress > .progress-bar {
+        width: 100%;
+    }
+
+    .smpl-step > .smpl-step-step.active > .progress > .progress-bar {
+        width: 100%;
+    }
+
+    .smpl-step > .smpl-step-step:first-child.active > .progress > .progress-bar {
+        width: 0%;
+    }
+
+    .smpl-step > .smpl-step-step:last-child.active > .progress > .progress-bar {
+        width: 100%;
+    }
+
+    .smpl-step > .smpl-step-step.disabled > .smpl-step-icon {
+        background-color: #f5f5f5;
+    }
+
+    .smpl-step > .smpl-step-step.disabled > .smpl-step-icon:after {
+        opacity: 0;
+    }
+
+    .smpl-step > .smpl-step-step:first-child > .progress {
+        left: 50%;
+        width: 50%;
+    }
+
+    .smpl-step > .smpl-step-step:last-child > .progress {
+        width: 50%;
+    }
+
+    .smpl-step > .smpl-step-step.disabled a.smpl-step-icon {
+        pointer-events: none;
+    }
+</style>
+
+<style>
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #fff; /* White */
+      color: #555555;
+  }
+</style>
+
+<div class="container-fluid bg-3 text-center" id="about">
+  <h2>Who are we? </h2>
+  <img src="C:\Users\Administrator\Desktop\images\persi.png" class="img-circle" alt="Persistent" width="350" height="350">
+  <h4>We are geeks who are interested in improving the way the projects are allocated to freshmen.We therefore decided to develop an Employee Evaluation and Project Allocation System so that we could also be allocated to different projects! LOL:)</h4>
+</div>
+
+
+<div class="container-fluid bg-grey" id ="contact">
+  <h2 class="text-center">Where to find us?</h2>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Hinjewadi, Pune</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 020-66359536</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> contactus@persistent.com</p>	   
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+   <div id="googleMap" style="height:300px;width:100%;"></div>
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(18.5204303 ,73.8567437);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:12,
+scrollwheel:false,
+draggable:false,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<footer class="container-fluid text-center">
+<p>Terms & Conditions | Disclaimer | Privacy Policy &copy 2016 Persistent Systems Ltd.</p>
+  
+</footer>
+
+</body>
+</html>

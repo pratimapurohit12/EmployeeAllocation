@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+              <!DOCTYPE hibernate-mapping PUBLIC
+              "-//Hibernate/Hibernate Mapping DTD//EN"
+              "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+
+	<class name="com.psl.bean.Project" table="project">
+
+		<id name="projectId"></id>
+		<property name="projectName"></property>
+		<property name="empRequirement"></property>
+		<property name="status"></property>
+		<property name="skill"></property>
+
+	</class>
+
+</hibernate-mapping>

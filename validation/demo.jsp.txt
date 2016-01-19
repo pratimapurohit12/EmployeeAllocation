@@ -1,0 +1,18 @@
+<%
+
+	String uname=request.getParameter("userName");
+	
+	if(uname.equals("abc_xyz"))
+	{
+		out.println("Valid user...");	
+	}
+	else
+	{
+		out.println("Invalid user ...");
+	}	
+
+
+%>
+
+
+

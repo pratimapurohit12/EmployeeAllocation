@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/EmployeeEvaluationAndProjectAllocation</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		
+
+		<!-- Hibernate configuration -->
+
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+		<!-- creating database structure using hibernate -->
+		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="show_sql"></property>
+
+
+
+	
+
+	<mapping class="com.psl.bean.Employee"></mapping>
+	<!-- 	
+		<mapping resource="com/psl/bean/Project.hbm.xml"></mapping>
+		<mapping resource="com/psl/bean/Training.hbm.xml"></mapping>
+		<mapping resource="com/psl/bean/Question.hbm.xml"></mapping>
+		<mapping resource="com/psl/bean/Course.hbm.xml"></mapping>
+		
+		<mapping resource="com/psl/bean/Employee.hbm.xml"></mapping>
+		
+		
+		
+	
+		<mapping resource="com/psl/bean/Test.hbm.xml"></mapping>	-->
+
+
+	</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,119 @@
+				Core java
+
+1.Which is a reserved word in the Java programming language?
+
+A.method	B.native 	C.subclasses	D.reference  ---->b 
+
+2.Q. What is the base class for all Exception ?
+java.lang.Exception
+java.lang.Throwable
+java.lang.RuntimeException
+java.lang.Error			---->b
+
+3.Which type of exception will be thrown when you run this code ?
+int a = 100, b = 0;
+int c = a/b;
+java.lang.Exception
+java.lang.Throwable
+java.lang.DivideByZeroException
+java.lang.ArithmeticException		---->c
+
+4.A special method that is used to initialize a class object ?
+abstract method
+static method
+Constructor
+overloaded method.		---->c
+
+5.this keyword in java is used to ?
+refer to current class object.
+refer to static method of the class.
+refer to parent class object.
+refer to static variable of the class.		---->a
+
+6.Garbage Collection in java is done by who ?
+Java Compiler
+Object class
+JVM
+System class		---->c
+
+7.Which of the following statement declares a constant field in Java ?
+const int x = 10;
+static int x = 10;
+final static int x = 10;
+volatile int x =10;		---->c
+
+8.Can you make a Constructor final ?
+Yes
+No		---->a
+
+9. String objects are stored in a special memory area known as ?
+Heap
+Stack
+String Constant Pool
+Method Area		---->a
+
+10.Which class is used to create mutable and non-synchronised string ?
+StringBuffer
+StringBuilder
+String
+StringTokenizer		---->a
+
+11.What is the output of relational operators?
+Integer.
+Boolean.
+Character.
+Double.			----->b
+		
+12.Using following the keyword  you can fully abstract a class _________.
+Method
+Keyword
+abstract
+final		---->c
+
+13.An exception is an _________ condition that arises in a code.
+Abnormal
+Casual
+Unfortunate
+Opposite		---->a
+
+14.The String is defined in _______ namespace.
+Java.lang
+Java.string
+Java.char
+Java.awt		---->a
+
+15. ________ is the mechanism that binds together the code and the data.
+Polymorphism.
+Encapsulation.
+Inheritance.
+Together.		--->b
+
+16._______ is a small unit of a process.
+Method
+Thread
+Applet
+Stream		---->b
+
+17.Multidimensional arrays are actually ________.
+Arrays of element.
+Array and variable.
+Arrays of arrays.
+None of the above.		----->c
+
+18. In Java variables, if first increment of the variable takes place and then the assignment occurs. This operation is also called ............................. .
+A) pre increment
+B) post increment
+C) incrementation
+D) pre incrementation 	----->a
+
+19. By using ................... you can force immediate termination of a loop, by passing the conditional expression and any remaining code in the body of the loop.
+A) Break
+B) Continue
+C) Terminate
+D) Loop Close		---->a
+
+20.The compiled java program can run anywhere having ________
+A) java compiler
+B) jvm
+C) notepad
+D) none of these	---->b 		

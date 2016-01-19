@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+              <!DOCTYPE hibernate-mapping PUBLIC
+              "-//Hibernate/Hibernate Mapping DTD//EN"
+              "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+
+	<class name="com.psl.bean.Test" table="TestResults">
+		
+		<id name="empId">
+ 		<generator class="foreign">
+ 
+ 			<param name="property">employee</param>
+ 
+ 		</generator>
+ 		</id>
+ 	
+ 	
+ 	
+		<id name="trainingId">
+ 		<generator class="foreign">
+ 
+ 			<param name="property">training</param>
+ 
+ 		</generator>
+ 		</id>
+ 	
+ 	
+ 	
+		<id name="courseId">
+ 		<generator class="foreign">
+ 
+ 			<param name="property">course</param>
+ 
+ 		</generator>
+ 		</id>
+ 	
+ 		<property name="marks"></property>
+		<property name="result"></property>
+		<property name="testType"></property>
+		
+       
+        <one-to-one name="employee" class="com.psl.bean.Employee"></one-to-one>
+   		<one-to-one name="training" class="com.psl.bean.Training"></one-to-one>
+		<one-to-one name="course" class="com.psl.bean.Course"></one-to-one>
+		
+	</class>
+
+</hibernate-mapping>

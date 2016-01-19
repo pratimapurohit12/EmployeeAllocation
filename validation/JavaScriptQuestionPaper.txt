@@ -1,0 +1,143 @@
+				JavaScript Question Paper
+
+
+1.  Why so JavaScript and Java have similar name?
+A.  JavaScript is a stripped-down version of Java
+B.  JavaScript's syntax is loosely based on Java's
+C.  They both originated on the island of Java
+D.  None of the above
+Ans: B
+
+2.  When a user views a page containing a JavaScript program, which machine actually executes the script?
+A.  The User's machine running a Web browser
+B.   The Web server
+C.  A central machine deep within Netscape's corporate offices
+D.  None of the above
+Ans:  A
+
+3.  ______ JavaScript is also called client-side JavaScript.
+A.  Microsoft
+B.  Navigator
+C.  LiveWire
+D.  Native
+Ans: B
+
+4.  __________ JavaScript is also called server-side JavaScript.
+A.  Microsoft
+B.   Navigator
+C.  LiveWire
+D.  Native
+ Ans: C
+
+5.  What are variables used for in JavaScript Programs?
+A.  Storing numbers, dates, or other values
+B.   Varying randomly
+C.  Causing high-school algebra flashbacks
+D.  None of the above
+ Ans: A
+
+6.  _____ JavaScript statements embedded in an HTML page can respond to user events such as mouse-clicks, form input, and page navigation.
+A.  Client-side
+B.   Server-side
+C.  Local
+D.  Native
+ Ans: A
+
+7.  What should appear at the very end of your JavaScript?
+The <script LANGUAGE="JavaScript">tag
+A.   The </script>
+B.    The <script>
+C.  The END statement
+D.  None of the above
+Ans: A
+
+8.  Which of the following can't be done with client-side JavaScript?
+A.  Validating a form
+B.   Sending a form's contents by email
+C.  Storing the form's contents to a database file on the server
+D.  None of the above
+ Ans: C
+
+9.  Which of the following are capabilities of functions in JavaScript?
+A.  Return a value
+B.   Accept parameters and Return a value
+C.  Accept parameters
+D.  None of the above
+ Ans: C
+
+10.  Which of the following is not a valid JavaScript variable name?
+A.  2names
+B.   _first_and_last_names
+C.  FirstAndLast
+D.  None of the above
+ Ans: A
+
+11.  ______ tag is an extension to HTML that can enclose any number of JavaScript statements.
+A.  <SCRIPT>
+B.   <BODY>
+C.  <HEAD>
+D.  <TITLE>
+ Ans: A
+
+12.  How does JavaScript store dates in a date object?
+A.  The number of milliseconds since January 1st, 1970
+B.   The number of days since January 1st, 1900
+C.  The number of seconds since Netscape's public stock offering.
+D.  None of the above
+ Ans: A
+
+13.  Which of the following attribute can hold the JavaScript version?
+A.  LANGUAGE
+B.   SCRIPT
+C.  VERSION
+D.  None of the above
+ Ans: A
+
+14.  What is the correct JavaScript syntax to write "Hello World"?
+A.  System.out.println("Hello World")
+B.   println ("Hello World")
+C.  document.write("Hello World")
+D.  response.write("Hello World")
+ Ans: C
+
+15.  Which of the following way can be used to indicate the LANGUAGE attribute?
+A.  <LANGUAGE="JavaScriptVersion">
+B.   <SCRIPT LANGUAGE="JavaScriptVersion">
+C.  <SCRIPT LANGUAGE="JavaScriptVersion">    JavaScript statements…</SCRIPT>
+D.  <SCRIPT LANGUAGE="JavaScriptVersion"!>    JavaScript statements…</SCRIPT>
+ Ans: C
+
+16.  Inside which HTML element do we put the JavaScript?
+A.  <js>
+B.   <scripting>
+C.  <script>
+D.  <javascript>
+Ans: C
+
+17.  What is the correct syntax for referring to an external script called " abc.js"?
+A.  <script href=" abc.js">
+B.   <script name=" abc.js">
+C.  <script src=" abc.js">
+D.  None of the above
+ Ans: C
+
+18.  Which types of image maps can be used with JavaScript?
+A.  Server-side image maps
+B.  Client-side image maps
+C.  Server-side image maps and Client-side image maps
+D.  None of the above
+ Ans: B
+
+19.  Which of the following navigator object properties is the same in both   Netscape and IE?
+A.  navigator.appCodeName
+B.   navigator.appName
+C.  navigator.appVersion
+D.  None of the above
+ Ans: A
+
+20.  Which is the correct way to write a JavaScript array?
+A.  var txt = new Array(1:"tim",2:"kim",3:"jim")
+B.   var txt = new Array:1=("tim")2=("kim")3=("jim")
+C.  var txt = new Array("tim","kim","jim")
+D.  var txt = new Array="tim","kim","jim"
+Ans: C

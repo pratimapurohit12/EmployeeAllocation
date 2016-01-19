@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+              <!DOCTYPE hibernate-mapping PUBLIC
+              "-//Hibernate/Hibernate Mapping DTD//EN"
+              "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+
+	<class name="com.psl.bean.Question" table="Question">
+
+		<id name="questionId"></id>
+		<property name="question"></property>
+		<property name="optionA"></property>
+		<property name="optionB"></property>
+		<property name="optionC"></property>
+		<property name="optionD"></property>
+		<property name="correctAnswer"></property>
+	</class>
+
+</hibernate-mapping>
